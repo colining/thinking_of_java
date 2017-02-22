@@ -57,7 +57,16 @@ public class Main {
 //        System.out.println(v);
         //ÈıÔªÔËËã·û
         int i = 1<2 ? 1:2;
-
+        //
+        Test test = new Test("rentianqi",1);
+        double a = 0;
+        float b= 0;
+       // test.testfloat(a);
+        test.testfloat((float) a);
+        test.testdouble(b);
+        System.runFinalizersOnExit(true);
+        //System.gc();
+        //
     }
 }
 
