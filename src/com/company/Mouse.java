@@ -6,7 +6,9 @@ package com.company;
 public class Mouse extends Animal {
     public  Mouse(String myName, int myid) {
        // super(myName, myid);
+
         super("kjl",1);
+
     }
    void   Mouse ()
     {

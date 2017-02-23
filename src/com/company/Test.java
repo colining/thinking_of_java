@@ -1,5 +1,7 @@
 package com.company;
 
+import net.mindview.util.Print;
+
 /**
  * Created by asus on 2017/2/20.
  */
@@ -19,5 +21,6 @@ public class Test extends  Mouse {
         System.out.println("ss");
         super.finalize();
     }
+
 
 }

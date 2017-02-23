@@ -55,18 +55,20 @@ public class Main {
 //        System.out.println(Long.toBinaryString(a));
 //        int v= (int) 5e2;
 //        System.out.println(v);
-        //三元运算符
-        int i = 1<2 ? 1:2;
-        //
-        Test test = new Test("rentianqi",1);
-        double a = 0;
-        float b= 0;
-       // test.testfloat(a);
-        test.testfloat((float) a);
-        test.testdouble(b);
-        System.runFinalizersOnExit(true);
+//        //三元运算符
+//        int i = 1<2 ? 1:2;
+//        //
+//        Test test = new Test("rentianqi",1);
+//        double a = 0;
+//        float b= 0;
+//       // test.testfloat(a);
+//        test.testfloat((float) a);
+//        test.testdouble(b);
+//        System.runFinalizersOnExit(true);
         //System.gc();
         //
+        House h = new House();
+        h.f();
     }
 }
 
