@@ -5,8 +5,7 @@ package com.company;
  */
 public class Mouse extends Animal {
     public  Mouse(String myName, int myid) {
-       // super(myName, myid);
-
+        //super(myName, myid);
         super("kjl",1);
 
     }
@@ -21,6 +20,19 @@ public class Mouse extends Animal {
 
     @Override
     public void eat() {
-        super.eat();
+        //super.eat();
     }
+
+    public  void  eat(int a )
+    {
+        System.out.println("aa");
+    }
+    @Override
+    protected void test(String a) {
+        super.test(a);
+        super.test("a");
+        super.test("b");
+    }
+
+
 }

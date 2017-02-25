@@ -2,7 +2,10 @@ package com.company;
 
 
 import net.mindview.util.Print;
+import net.mindview.util.Range;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.Random;
 
@@ -67,8 +70,13 @@ public class Main {
 //        System.runFinalizersOnExit(true);
         //System.gc();
         //
-        House h = new House();
-        h.f();
+//        House h = new House();
+//        h.f();
+//        int []a =Range.range(5);
+//        System.out.println(Arrays.toString(a));
+//        Animal animal = new Animal("lalla",5);
+//        animal.eat(2);
+
     }
 }
 
