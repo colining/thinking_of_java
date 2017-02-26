@@ -6,12 +6,12 @@ package test;
 public class Cartoon extends  Drawing {
     Main main = new Main();
 
-    Cartoon(int i) {
-        super(i);
-    }
+//    Cartoon(int i) {
+//        super(i);
+//    }
 
     public  static  void  main(String arg[])
     {
-        Cartoon x = new Cartoon(1);
+       // Cartoon x = new Cartoon(1);
     }
 }
