@@ -10,7 +10,10 @@ public class Animal {
         name = myName;
         id = myid;
     }
-
+    protected  void breath()
+    {
+        System.out.println("breath");
+    }
     public void eat(){
         System.out.println(name+"ÕýÔÚ³Ô");
     }

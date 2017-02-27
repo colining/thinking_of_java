@@ -7,13 +7,10 @@ public class Drawing extends  Art {
     String a = "bbbbbb";
         public  static  void  main (String arg[])
         {
-
 //            Art a = new Drawing();
 //            a.test();
 //            System.out.println(a.a);
             Drawing drawing = new Drawing();
-
-
         }
 
 //        Drawing (String i)
