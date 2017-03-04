@@ -1,11 +1,16 @@
 package String;
 
+//import com.sun.java.util.jar.pack.Package;
+import com.sun.org.apache.bcel.internal.classfile.Code;
+
 import java.io.PrintStream;
 import java.util.Formatter;
+import java.lang.Class;
 
 /**
  * Created by asus on 2017/3/4.
  */
+
 public class Turtle {
     private  String name;
     private Formatter formatter;
@@ -21,12 +26,16 @@ public class Turtle {
     }
     public  static void main(String a[])
     {
+        Class class1 =Code.class;
+
         PrintStream stream = System.err;
         Turtle turtle = new Turtle("tommy",new Formatter( System.out));
         Turtle turtle1 = new Turtle("tom",new Formatter(System.err));
         turtle.move(5,6);
         turtle.move(6,8);
         turtle1.move(9,0);
+        Class class2 = turtle.getClass();
+
 
     }
 }
