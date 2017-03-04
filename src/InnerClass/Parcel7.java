@@ -20,8 +20,9 @@ public class Parcel7 {
         {
 
            // @Override
+            private  int b = x;
             public int a() {
-                String b =a;
+                int b =x;
                 return x;
             }
         };
