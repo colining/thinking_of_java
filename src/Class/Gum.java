@@ -8,4 +8,8 @@ public class Gum {
     {
         System.out.println("loading Gun");
     }
+    static  void  a()
+    {
+
+    }
 }
