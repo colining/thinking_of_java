@@ -1,14 +1,16 @@
 package Newcoder;
 
+
 /**
  * Created by asus on 2017/3/5.
  */
-public class Test
+ public abstract  class Test extends  HelloB
 {
-
+     public void a()
+    {
+        
+        System.out.println("a");
+    }
 }
-class  test2
-{
 
-}
 
