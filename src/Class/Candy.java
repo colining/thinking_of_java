@@ -8,15 +8,12 @@ public class Candy {
         System.out.println("ccandy");
     }
     {
-        System.out.println("llallalal");
+        System.out.println("no static");
     }
     static
     {
         System.out.println("loading Cnady");
     }
-
-
-
 
     void  a()
     {
