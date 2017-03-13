@@ -13,55 +13,13 @@ public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     int a = scanner.nextInt();
     fun(a);
-    for (int i=0;i<10;i++)
-    {
-        if (i==9)
+    for (int i = 0; i < 10; i++) {
+        if (i == 9)
             System.out.print(my[i]);
         else
-        System.out.print(my[i]+" ");
+            System.out.print(my[i] + " ");
     }
-
-
 }
-//public  static  void fun1(int num)
-//{
-//    int digst = (int) Math.log10(num);
-//    int t = num;
-//    int zero = 0;
-//
-//
-//    while ( digst !=0)
-//    {
-//        t/= Math.pow(10,digst);
-//
-//        if (t!=0)
-//        {
-//            num -= t*Math.pow(10,digst);
-//            for (int i =0 ; i<10 ; i++)
-//            {
-//                my[i] += t*f(num);
-//            }
-//        }
-//        my[t--]+= num+1;
-//
-//        while (t>=0)
-//        {
-//            my[t--]+=Math.pow(10,digst);
-//        }
-//        zero+= Math.pow(10,digst);
-//        if (num<10 && digst==1)
-//        {
-//            for ( int i = 0; i<=num;i++)
-//                my[i]++;
-//            num = 0;
-//        }
-//        t=num;
-//        digst--;
-//
-//    }
-//    my[0]-= (zero+1);
-//    return;
-//}
     public  static  int fun(int a)
     {
         int digit = (int) Math.log10(a);                    //位数，少一
@@ -70,7 +28,6 @@ public static void main(String[] args) {
             for (int j = a; j >=0; j--)
             {
                 my[j]++;
-
                 }
                my[0]--;
             return 0;
