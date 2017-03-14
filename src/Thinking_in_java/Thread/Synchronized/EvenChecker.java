@@ -10,6 +10,7 @@ public class EvenChecker implements Runnable {
     private final int id;
     public EvenChecker(IntGenerator g, int ident) {
         generator = g;
+        System.out.println(g);
         id = ident;
     }
     public void run() {
